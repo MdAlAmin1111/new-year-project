@@ -16,7 +16,12 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+.footer-common{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    line-height: 40px;
+}
 
 /* header style */
 
@@ -48,6 +53,7 @@ header {
     text-align: center;
     font-size: 70px;
     color: white;
+    font-weight: 700;
 }
 
 
@@ -347,4 +353,59 @@ main {
     color: white;
     font-size: 20px;
     font-weight: 600;
+}
+
+/* footer section styles */
+
+footer{
+    background-color: #070211;
+}
+
+.footer-content{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-content-contact p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+.footer-content hr{
+    color: rgba(255, 255, 255, 0.15);
+}
+.footer-content-row-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.footer-content-contact{
+    margin-right: 135px;
+}
+.footer-content-row-2{
+    text-align: center;
+}
+.footer-content-row-2 img{
+    margin-right: 24px;
+}
+.footer-content-row-3{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content-row-3 button{
+    font-size: 24px;
+    font-weight: 500;
+    background: transparent;
+    color: white;
+    border: none;
 }
