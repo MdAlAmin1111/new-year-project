@@ -277,3 +277,30 @@ main {
     width: 100%;
     z-index: 1;
 }
+
+/* portfolio section style */
+
+.portfolio-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+.portfolio-heading{
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 22px;
+}
+.portfolio-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 48px;
+}
+
+.portfolio-div-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 24px;
+}
