@@ -304,3 +304,47 @@ main {
     flex-wrap: wrap;
     gap: 24px 24px;
 }
+
+/* newslatter section styles */
+.newslatter{
+    background-color: rgba(255, 0, 0, 0.05);
+    height: 616px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.newslatter-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+.newslatter-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+}
+.newslatter-inputs{
+    display: flex;
+}
+.input-1{
+    padding: 25px 30px;
+    border: none;
+    color: rgba(7, 2, 17, 0.3);
+    font-size: 18px;
+    font-weight: 400;
+    background: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.input-2{
+    padding: 25px 56px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #FF0000;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
