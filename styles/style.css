@@ -17,7 +17,9 @@
     margin-right: auto;
 }
 
+
 /* header style */
+
 header {
     width: 100%;
 
@@ -25,7 +27,6 @@ header {
 
 .banner {
     height: 600px;
-    /* margin: auto; */
     background: linear-gradient(180deg, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url('../images/Banner\ Image.png');
     background-size: cover;
     display: flex;
@@ -34,8 +35,6 @@ header {
     justify-content: center;
     border-radius: 16px;
 }
-
-.banner-content {}
 
 .banner-content-subheading {
     text-align: center;
@@ -51,60 +50,70 @@ header {
     color: white;
 }
 
+
 /* discount section style */
-main{
+
+main {
     width: 100%;
 }
-.discount{
+
+.discount {
     max-width: 803px;
     max-height: 806px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    /* gap: 48px; */
 }
-.discount-title{
+
+.discount-title {
     margin-bottom: 48px;
     font-size: 88px;
     font-weight: 700;
     color: rgba(255, 0, 0, 1);
 }
-.discount-subtitle{
+
+.discount-subtitle {
     font-size: 24px;
     color: rgba(255, 0, 0, 1);
     font-weight: 500;
     margin-bottom: 16px;
 }
-.discount-heading{
+
+.discount-heading {
     font-size: 48px;
     font-weight: 700;
     color: rgba(7, 2, 17, 1);
     margin-bottom: 48px;
 }
 
+
 /* party banner style */
-.party-banner{
+
+.party-banner {
     height: 600px;
     background: linear-gradient(90deg, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png");
     background-size: cover;
-    border-radius: 16px ;
+    border-radius: 16px;
     padding-left: 126px;
     gap: 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.party-banner-title{
+
+.party-banner-title {
     color: #FFFFFF;
     font-size: 64px;
 }
-.party-banner-description{
+
+.party-banner-description {
     font-size: 18px;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.8);
 }
-.party-banner-button{
+
+.party-banner-button {
     color: white;
     width: 103px;
     font-size: 20px;
@@ -114,8 +123,10 @@ main{
     cursor: pointer;
 }
 
+
 /* place-date-time style */
-.place-date-time{
+
+.place-date-time {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,15 +136,18 @@ main{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
     border-radius: 16px;
 }
-.place-date-time p{
+
+.place-date-time p {
     font-size: 32px;
     font-weight: 600;
     color: rgba(7, 2, 17, 1);
 }
-.place-date-time span{
+
+.place-date-time span {
     color: rgba(255, 0, 0, 1);
 }
-.place-date-time button{
+
+.place-date-time button {
     font-size: 20px;
     font-weight: 700;
     color: rgba(255, 255, 255, 1);
@@ -142,50 +156,124 @@ main{
     border-radius: 8px;
     border: none;
     margin-top: 48px;
-    cursor:pointer;
+    cursor: pointer;
 
 }
+
 /* best-offer-container style */
-.best-offer-container{
+
+.best-offer-container {
     height: 663px;
     display: flex;
     justify-content: space-between;
-    align-items:center;
-    /* flex-wrap: wrap; */
+    align-items: center;
     gap: 70px;
 }
-.best-offer-column{
+
+.best-offer-column {
     width: 30%;
 }
-.best-offer-column p{
+
+.best-offer-column p {
     margin-bottom: 24px;
     line-height: 30px;
 }
-.best-offer-title{
+
+.best-offer-title {
     font-size: 24px;
     font-weight: 500;
     color: #FF0000;
 }
-.best-offer-heading{
+
+.best-offer-heading {
     font-size: 48px;
     font-weight: 700;
     color: #070211;
 }
-.best-offer-description{
+
+.best-offer-description {
     font-size: 20px;
     font-weight: 400;
     color: rgba(7, 2, 17, 0.6);
 }
-#best-offer-center-image img{
+
+#best-offer-center-image img {
     padding: 40px;
     border: 16px solid #FF0000;
     border-radius: 50%;
 }
-.best-offer-year{
+
+.best-offer-year {
     font-size: 48px;
     font-weight: 700;
     color: #FF0000;
 }
-.best-offer-column-3{
+
+.best-offer-column-3 {
     padding-left: 118px;
+}
+
+/* holiday section style */
+
+.holiday {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 986px;
+}
+
+.holiday-subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(7, 2, 17, 1);
+    margin-bottom: 16px;
+}
+
+.holiday-title {
+    font-size: 72px;
+    margin-bottom: 28px;
+    font-weight: 700;
+}
+
+.holiday-title span {
+    color: #FF0000;
+}
+
+.holiday-description {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 64px;
+}
+
+.holiday-images {
+    width: 100%;
+    height: 662px;
+    position: relative;
+}
+
+.holiday-img-1 {
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.holiday-img-2 {
+    position: absolute;
+    right: 40px;
+    bottom: 280px;
+
+    /* width: 305px; */
+}
+
+.holiday-img-3 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1;
 }
