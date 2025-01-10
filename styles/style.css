@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common style */
+
+.common-width {
+    width: 1320px;
+}
+
+.common-margin {
+    margin-top: 50px;
+    margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header style */
+header {
+    width: 100%;
+
+}
+
+.banner {
+    height: 600px;
+    /* margin: auto; */
+    background: linear-gradient(180deg, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url('../images/Banner\ Image.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.banner-content {}
+
+.banner-content-subheading {
+    text-align: center;
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.banner-content-heading {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+
+/* discount section style */
+main{
+    width: 100%;
+}
+.discount{
+    max-width: 803px;
+    max-height: 806px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 48px; */
+}
+.discount-title{
+    margin-bottom: 48px;
+    font-size: 88px;
+    font-weight: 700;
+    color: rgba(255, 0, 0, 1);
+}
+.discount-subtitle{
+    font-size: 24px;
+    color: rgba(255, 0, 0, 1);
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.discount-heading{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(7, 2, 17, 1);
+    margin-bottom: 48px;
+}
+
+/* party banner style */
+.party-banner{
+    height: 600px;
+    background: linear-gradient(90deg, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png");
+    background-size: cover;
+    border-radius: 16px ;
+    padding-left: 126px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.party-banner-title{
+    color: #FFFFFF;
+    font-size: 64px;
+}
+.party-banner-description{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+}
+.party-banner-button{
+    color: white;
+    width: 103px;
+    font-size: 20px;
+    font-weight: 700;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* place-date-time style */
+.place-date-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 482px;
+    line-height: 48px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
+    border-radius: 16px;
+}
+.place-date-time p{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(7, 2, 17, 1);
+}
+.place-date-time span{
+    color: rgba(255, 0, 0, 1);
+}
+.place-date-time button{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(255, 0, 0, 1);
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 48px;
+    cursor:pointer;
+
+}
+/* best-offer-container style */
+.best-offer-container{
+    height: 663px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    /* flex-wrap: wrap; */
+    gap: 70px;
+}
+.best-offer-column{
+    width: 30%;
+}
+.best-offer-column p{
+    margin-bottom: 24px;
+    line-height: 30px;
+}
+.best-offer-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.best-offer-heading{
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+}
+.best-offer-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+}
+#best-offer-center-image img{
+    padding: 40px;
+    border: 16px solid #FF0000;
+    border-radius: 50%;
+}
+.best-offer-year{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FF0000;
+}
+.best-offer-column-3{
+    padding-left: 118px;
+}
